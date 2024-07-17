@@ -3,4 +3,5 @@ project(task_list C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(task_list main.c)
+add_executable(task_list main.c
+        task.c)
